@@ -4,9 +4,9 @@
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "ng": "ng --openssl-legacy-provider",
+    "start": "ng --openssl-legacy-provider serve",
+    "build": "ng --openssl-legacy-provider build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
