@@ -27,3 +27,8 @@ kubectl apply -f frontend-deployment.yaml
 ## Service
 kubectl apply -f frontend-service.yaml
 ## =============================
+
+## Apply HPA
+
+kubectl apply -f backend-feed-hpa.yaml
+kubectl apply -f backend-user-hpa.yaml
